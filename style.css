@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+*{
+    box-sizing: border-box ;
+}
+
+body{
+    font-family: "Rubik", sans-serif;
+}
+
+.img-thumbnail{
+    border: none;
+}
+
+/*Header section*/
+.grey-text{
+    color: rgb(179, 178, 178);
+}
+
+.center{
+    padding: 0 150px;
+}
+
+.btn-green{
+    background-color: rgb(10, 140, 95);
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btn-green:hover{
+    color: #fff;
+    border: none;
+    background-color: rgb(14, 186, 126);
+}
+
+.btn-blue{
+    background-color: rgb(7, 33, 204);
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.btn-blue:hover{
+    border: none;
+    background-color: rgb(7, 38, 233);
+    color: #fff;
+}
+
+@media (max-width:800px){
+    .center{
+        padding: 0 30px;
+    }
+}
+
+@media (max-width:400px){
+    .center{
+        padding: 0 30px;
+    }
+}
+
+/*Section-1*/
+.img-computer{
+    margin-left: -100px;
+}
+
+.sub-content{
+    margin-top: 100px;
+}
+
+@media (max-width:400px){
+    .img-computer{
+        margin-left: 0px;
+    }
+
+    .sub-content{
+        margin: 50px 50px;
+    }
+}
